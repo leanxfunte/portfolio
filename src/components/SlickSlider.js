@@ -97,7 +97,7 @@ class MySlider extends React.Component {
         <Slider ref={this.slider} {...settings}>
           {slideElement}
         </Slider>
-        <div className="absolute bottom-[15px] left-[10px] max-sm:bottom-[20px]">
+        <div className="absolute bottom-[15px] left-[10px] max-sm:bottom-[175px]">
           <button
             className="text-white font-bold mr-2 rounded-0 border-2 p-2 bg-red border-red hover:bg-[#990000] hover:border-[#990000] transition-all duration-500"
             onClick={this.previous}

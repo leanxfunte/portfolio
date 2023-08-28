@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+@import '~@fortawesome/fontawesome-free/css/all.css';
 
 .quicklinks-block {
   @apply absolute bottom-[50px] w-full justify-end px-8

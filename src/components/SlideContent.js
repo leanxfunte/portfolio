@@ -20,7 +20,7 @@ function SlideContent(props) {
   //   </div>
   // ));
   return (
-    <div className="slide-content grid grid-cols-2 relative">
+    <div className="slide-content grid max-sm:grid-cols-1 grid-cols-2 relative">
       <div className="image-block border-red border-2 h-[250px]">
         <div className=" relative">
           <img
@@ -30,9 +30,19 @@ function SlideContent(props) {
           />
         </div>
       </div>
-      <div className="content-block z-[99] ml-[-50px] relative p-3">
-        <h1 className="text-white text-3xl mb-5 uppercase font-bold">
+      <div className="content-block z-[99] max-sm:ml-[0] ml-[-50px] relative p-3">
+        <h1 className="text-white max-sm:text-xl text-3xl mb-5 uppercase font-bold flex items-center">
           {props.item.name}
+          {props.item.link && props.item.link.trim() !== "" ? (
+            <a
+              className="ml-auto text-xs border border-white p-1"
+              href={props.item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              visit site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          ) : null}
         </h1>
         {/* Check the type of desc inline */}
         {Array.isArray(description) ? (
@@ -50,18 +60,6 @@ function SlideContent(props) {
         {/* <p className="text-white text-[rgba(255,255,255,.5)] font-light text-[16px] text-justify ellipsis-5">
           {props.item.description}
         </p> */}
-        <div className="absolute bottom-0 right-0 translate-x-50">
-          {props.item.link && props.item.link.trim() !== "" ? (
-            <a
-              className="border-2 border-red text-white p-2 uppercase font-light hover:bg-red"
-              href={props.item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit Site
-            </a>
-          ) : null}
-        </div>
       </div>
     </div>
   );
