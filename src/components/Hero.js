@@ -22,7 +22,7 @@ function Hero() {
           <img className="inline invert h-[20px] mb-[4px] ml-2" src="./images/chevron-right.svg" />
           <span className="animate-ping absolute top-[18px] right-[32px] h-3 w-3 rounded-full bg-red opacity-50"></span>
         </a> */}
-        <a href="#about-me" className="scroll-down animate-me animated">scroll down <img src="images/scroll-down-arrow.png" alt="arrow"/></a>
+        <a href="#about-me" className="scroll-down animate-me animated max-[600px]:!left-[-35px]">scroll down <img src="images/scroll-down-arrow.png" alt="arrow"/></a>
       </div>
     </section>
 
