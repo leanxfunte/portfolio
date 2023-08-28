@@ -2,11 +2,11 @@ import React from "react";
 
 function Menu(props) {
   const listItem = [
-    { name: "Home", link: "/#home" },
-    { name: "About Me", link: "/#about-me" },
-    { name: "Skills", link: "/#skills" },
-    { name: "Project", link: "/#portfolio" },
-    { name: "Contact", link: "/#contact" },
+    { name: "Home", link: "./#home" },
+    { name: "About Me", link: "./#about-me" },
+    { name: "Skills", link: "./#skills" },
+    { name: "Project", link: "./#portfolio" },
+    { name: "Contact", link: "./#contact" },
   ];
 
   return (
@@ -35,7 +35,7 @@ function Menu(props) {
           <div className="max-sm:w-full w-30 md:w-50 max-sm:mb-[20px]">
             <p className="text-white">Want to talk?</p>
             <a href="mailto:your-mail@gmail.com" className="text-white">
-              your-mail@gmail.com
+              lean.funte@gmail.com
             </a>
           </div>
           <div className="max-sm:w-100 w-30 md:w-50">
