@@ -93,17 +93,14 @@ class MySlider extends React.Component {
     // console.log("slideElement", slideElement);
 
     return (
-      <div className="relative w-[80%] m-auto required:">
-        <Slider ref={this.slider} {...settings}>
-          {slideElement}
-        </Slider>
-        <div className="absolute bottom-[15px] left-[10px] max-sm:bottom-[175px]">
+      <div className="relative max-sm:w-[100%] w-[80%] m-auto required:">
+        <div className="absolute z-50 top-[15px] left-[10px] max-sm:bottom-[130px]">
           <button
             className="text-white font-bold mr-2 rounded-0 border-2 p-2 bg-red border-red hover:bg-[#990000] hover:border-[#990000] transition-all duration-500"
             onClick={this.previous}
           >
             <img
-              className="opacity-50 filter invert scale-x-[-1]"
+              className="opacity-50 filter invert scale-x-[-1] max-sm:w-[20px]"
               src="images/chevron-right.svg"
               alt="arrow"
             />
@@ -113,12 +110,37 @@ class MySlider extends React.Component {
             onClick={this.next}
           >
             <img
-              className="opacity-50 filter invert"
+              className="opacity-50 filter invert max-sm:w-[20px]"
               src="images/chevron-right.svg"
               alt="arrow"
             />
           </button>
         </div>
+        <Slider ref={this.slider} {...settings}>
+          {slideElement}
+        </Slider>
+        {/* <div className="absolute bottom-[15px] left-[10px] max-sm:bottom-[130px] max-sm:invisible">
+          <button
+            className="text-white font-bold mr-2 rounded-0 border-2 p-2 bg-red border-red hover:bg-[#990000] hover:border-[#990000] transition-all duration-500"
+            onClick={this.previous}
+          >
+            <img
+              className="opacity-50 filter invert scale-x-[-1] max-sm:w-[20px]"
+              src="images/chevron-right.svg"
+              alt="arrow"
+            />
+          </button>
+          <button
+            className="text-white mr-5 rounded-0 border-2 p-2 bg-red border-red hover:bg-[#990000] hover:border-[#990000] transition-all duration-500"
+            onClick={this.next}
+          >
+            <img
+              className="opacity-50 filter invert max-sm:w-[20px]"
+              src="images/chevron-right.svg"
+              alt="arrow"
+            />
+          </button>
+        </div> */}
       </div>
     );
   }

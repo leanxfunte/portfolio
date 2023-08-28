@@ -21,7 +21,7 @@ function SlideContent(props) {
   // ));
   return (
     <div className="slide-content grid max-sm:grid-cols-1 grid-cols-2 relative">
-      <div className="image-block border-red border-2 h-[250px]">
+      <div className="image-block border-red border-2 h-[250px] max-sm:mb-5">
         <div className=" relative">
           <img
             className="absolute top-[20px] right-[-30px]"
@@ -30,8 +30,8 @@ function SlideContent(props) {
           />
         </div>
       </div>
-      <div className="content-block z-[99] max-sm:ml-[0] ml-[-50px] relative p-3">
-        <h1 className="text-white max-sm:text-xl text-3xl mb-5 uppercase font-bold flex items-center">
+      <div className="content-block z-[99] max-sm:bg-black/75 max-sm:border-red max-sm:border-2 max-sm:ml-[0] ml-[-50px] relative p-3">
+        <h1 className="text-white max-sm:text-xl text-2xl mb-5 uppercase font-bold flex items-center">
           {props.item.name}
           {props.item.link && props.item.link.trim() !== "" ? (
             <a
