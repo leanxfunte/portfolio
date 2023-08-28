@@ -37,49 +37,49 @@ class MySlider extends React.Component {
         id: 1,
         name: "Xerolabs",
         description: ["html", "css", "wordpress","php","bootstrap","javascript"],
-        image: "../images/xerolabs.png",
+        image: "./images/xerolabs.png",
         link: "https://www.xerolabs.co/"
       },
       {
         id: 2,
         name: "Sony",
         description: ["html", "css","less","bootstrap","javascript"],
-        image: "../images/sony.png",
+        image: "./images/sony.png",
         link: "https://sdw.sony-asia.com/SG/SDWHome"
       },
       {
         id: 3,
         name: "Legacy FA",
         description: ["html", "css", "wordpress","php","bootstrap","javascript"],
-        image: "../images/legacyfa.png",
+        image: "./images/legacyfa.png",
         link: "https://www.legacyfa-asia.com/"
       },
       {
         id: 4,
         name: "Samaya Clinics",
         description: ["html", "css","bootstrap","javascript"],
-        image: "../images/samaya.png",
+        image: "./images/samaya.png",
         link: "https://samaya.com.sa/"
       },
       {
         id: 5,
         name: "Yakolak",
         description: ["html", "css", "wordpress","php","bootstrap","javascript","react","laravel"],
-        image: "../images/yakolak.png",
+        image: "./images/yakolak.png",
         link: ""
       },
       {
         id: 6,
         name: "Winstar Loan",
         description: ["html", "css", "wordpress","bootstrap","javascript"],
-        image: "../images/winstar.png",
+        image: "./images/winstar.png",
         link: ""
       },
       {
         id: 7,
         name: "Canadian Web Hosting",
         description: ["html", "css", "ruby","bootstrap","javascript"],
-        image: "../images/canadian.png",
+        image: "./images/canadian.png",
         link: "https://www.canadianwebhosting.com/"
       },
     ];
