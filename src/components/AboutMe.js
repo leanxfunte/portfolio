@@ -29,7 +29,7 @@ function AboutMe() {
           <p className="about-p">
             My commitment to writing clean and maintainable code, delivering high-quality projects on time and within budget, and staying up-to-date with emerging technologies makes me a valuable asset in the industry. I am dedicated to creating beautiful and functional web interfaces that meet the needs of clients and users alike.
           </p>
-          <Button title="download resume" image={false} link="./files/resume.pdf" center={true} />
+          <Button title="download resume" image={false} link="./files/resume.pdf" center={true} d="lean_resume.pdf" />
         </div>
       </div>
     </section>
