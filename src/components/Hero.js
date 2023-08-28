@@ -6,7 +6,7 @@ function Hero() {
     <section id="home" className="hero-section bg-black h-screen">
       <div className="relative flex items-center min-h-full overflow-hidden">
         <div className="absolute inset-0">
-          <img className="w-full h-full object-cover object-center" src="/portfolio/images/herobg.png" alt="Hero image" />
+          <img className="w-full h-full object-cover object-center" src="./images/herobg.png" alt="Hero image" />
           <div className="absolute inset-0 bg-[#111111] opacity-50"></div>
         </div>
         <div className="relative w-full h-full z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
