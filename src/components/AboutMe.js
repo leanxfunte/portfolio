@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./Title"
+import Title from "./Title";
 import Button from "./Button";
 
 function AboutMe() {
@@ -14,26 +14,104 @@ function AboutMe() {
           <p className="mt-4 max-w-2xl text-xl text-white opacity-60 mx-auto">
             Frontend Developer | Graphic Designer
           </p>
-          <p className="about-p">
-            As a frontend developer, I specialize in creating visually appealing and user-friendly interfaces for websites and web applications. With a strong foundation in HTML, CSS, and JavaScript, I use these technologies to build intuitive and responsive user interfaces that enhance the user experience.
+          <p className="about-p mb-6">
+            I specialize in crafting captivating and user-centric interfaces for
+            websites and web applications. With a strong foundation in HTML,
+            CSS, and JavaScript, I create responsive interfaces that elevate
+            user experiences to new heights.
           </p>
 
-          <p className="about-p">
-            In addition to my core skills, I have experience with various frontend frameworks such as ReactJS, as well as content management systems like WordPress. I also have expertise in other frontend technologies such as LESS, Bootstrap, and Tailwind CSS, which allow me to create designs that are both responsive and visually stunning.
+          <h2 class="text-xl text-white font-semibold mb-2">Expertise</h2>
+          <p class="about-p mb-6">
+            My proficiency extends to prominent frontend frameworks like
+            ReactJS, enabling me to build dynamic and interactive interfaces.
+            Additionally, I am well-versed in content management systems such as
+            WordPress, ensuring seamless content delivery.
           </p>
 
-          <p className="about-p">
-            Throughout the development process, I am comfortable working with project management tools, version control systems, and other software that helps to streamline the workflow. I value clear communication and enjoy working collaboratively with others to bring ideas to life.
+          <h2 class="text-xl text-white font-semibold mb-2">
+            Design Excellence
+          </h2>
+          <p class="about-p mb-6">
+            I bring a meticulous eye for design, harnessing a range of
+            technologies including LESS, Bootstrap, and Tailwind CSS. These
+            tools empower me to design interfaces that are both responsive and
+            visually appealing. Leveraging the power of Photoshop and
+            Illustrator, I transform creative concepts into stunning visual
+            designs that resonate deeply with your brand identity.
           </p>
 
-          <p className="about-p">
-            My commitment to writing clean and maintainable code, delivering high-quality projects on time and within budget, and staying up-to-date with emerging technologies makes me a valuable asset in the industry. I am dedicated to creating beautiful and functional web interfaces that meet the needs of clients and users alike.
+          <h2 class="text-xl text-white font-semibold mb-2">
+            Efficient Workflow
+          </h2>
+          <p class="about-p mb-6">
+            My expertise extends to project management tools and version control
+            systems, streamlining development workflows for efficiency. I am a
+            strong advocate for clear communication and excel in collaborative
+            environments where innovative ideas are nurtured into reality.
           </p>
-          <Button title="download resume" image={false} link="./files/resume.pdf" center={true} download="lean_resume.pdf" />
+
+          <h2 class="text-xl text-white font-semibold mb-2">
+            Expanded Technical Proficiencies
+          </h2>
+          <p class="about-p mb-4">
+            In addition to the tools mentioned, my technical prowess also
+            encompasses:
+          </p>
+          <ul class="list-disc list-inside mb-6">
+            <li class="about-p">
+              SASS: Leveraging SASS to expedite styling and design workflows.
+            </li>
+            <li class="about-p">
+              Git: Utilizing Git for seamless teamwork and version control.
+            </li>
+            <li class="about-p">
+              Gulp: Automating tasks using Gulp for enhanced productivity.
+            </li>
+            <li class="about-p">
+              Webpack: Employing Webpack for optimal module bundling and
+              performance.
+            </li>
+            <li class="about-p">
+              Illustrator: Crafting intricate vector designs and graphics in
+              Illustrator.
+            </li>
+          </ul>
+
+          <h2 class="text-xl text-white font-semibold mb-2">
+            Commitment to Quality
+          </h2>
+          <p class="about-p mb-6">
+            I am unwaveringly committed to delivering clean and maintainable
+            code. This dedication ensures that I consistently produce
+            high-quality projects within deadlines and budgets.
+          </p>
+
+          <h2 class="text-xl text-white font-semibold mb-2">Staying Ahead</h2>
+          <p class="about-p mb-6">
+            I remain at the forefront of emerging technologies, enabling me to
+            develop functional web interfaces that align with the ever-evolving
+            demands of clients and users.
+          </p>
+
+          <p class="about-p">
+            If you are seeking a frontend professional who seamlessly blends
+            design finesse with technical expertise, I am enthusiastic about the
+            opportunity to collaborate and bring your digital aspirations to
+            fruition.
+          </p>
+
+          <Button
+            title="download resume"
+            image={false}
+            link="./files/resume.pdf"
+            center={true}
+            download="lean_resume.pdf"
+          />
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default AboutMe
+export default AboutMe;
