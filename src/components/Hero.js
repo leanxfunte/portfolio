@@ -11,9 +11,9 @@ function Hero() {
         </div>
         <div className="relative w-full h-full z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
           <h1 className=" text-white font-bold max-sm:text-5xl sm:text-[60px]">
-            Hi!
+          Hello!
             <br/>
-            Welcome to my website.</h1>
+            Welcome to my website—I'm glad you're here.</h1>
           <div className="mt-8">
             <Button title="HIRE ME" image={true} link="#about-me" />
           </div>
